@@ -1,0 +1,17 @@
+button {
+  font-family: inherit;
+  font-size: inherit;
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #263159;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #E96479;
+}

@@ -1,0 +1,32 @@
+.preview {
+  background-color: #FFFBEB;
+  width: 600px;
+  height: 100%;
+  margin: 2rem;
+  border-radius: 5px;
+}
+
+.preview ul {
+  color: #555;
+  font-size: 20px;
+  width: 100%;
+  font-family: inherit;
+}
+
+.preview ul li {
+  list-style: none;
+  text-indent: 25px;
+  height: 50px;
+  padding: 10px;
+  border-bottom: 1px dotted #ccc;
+  border-radius: 5px;
+}
+
+.lines {
+  border-left: 1px solid #ffaa9f;
+  border-right: 1px solid #ffaa9f;
+  width: 2px;
+  float: left;
+  height: 250px;
+  margin-left: 40px;
+}

@@ -1,0 +1,23 @@
+form {
+  width: 300px;
+  height: auto;
+  padding: 1rem;
+  color: white
+}
+
+label, input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  display: block;
+}
+
+input, select, textarea {
+  padding: 6px;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+}
+
+.form_group {
+  padding-bottom: 1rem;
+}
