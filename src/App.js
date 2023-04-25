@@ -5,23 +5,40 @@ import React, { Component } from 'react';
 
 class App extends Component {
   state = {
-    showModal: false
+    showModal: false,
+    firstname: "",
+    lastname: "",
+    phone: "",
+    role: "",
+    message: ""
   }
 
   modalHandler = (e) => {
     e.preventDefault();
-    
     this.setState({
       showModal: !this.state.showModal
     })
   }
 
+  // changeHandler = (e) => {
+  //   this.setState({
+  //     [e.target.name]: e.target.value
+  //   })
+  // }
+  changeHandler = (e) => {
+    this.setState({
+      [e.target.name]: e.target.value
+    })
+  }
+
   render() {
     return (
-      <div>
-      <Form submit={this.modalHandler}/>
-      <Preview/>
-      {this.state.showModal && <Modal/>}
+      <div className='app'>
+        <Form submit={this.modalHandler} handler={this.changeHandler}/>
+        <Preview {...this.state}/>
+        {this.state.showModal && <Modal 
+        click={this.modalHandler}{...this.state}
+        />}
       </div>
     );
   }

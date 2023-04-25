@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '../../UI/Button';
+//import Button from '../../UI/Button';
 import './Modal.css';
 
 const Modal = (props) => {
@@ -22,8 +22,8 @@ const Modal = (props) => {
         <p>
           Message: <span>{props.message}</span>
         </p>
-        <Button name="Yes, I am sure"/>
-        <Button name="No, I don't want to post it"/>
+        <button onClick={props.click}>Yes, I am sure</button>
+        <button onClick={props.click}>No, I don't want to post it</button>
       </div>
     </div>
   );
