@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 //import Button from '../../UI/Button';
-import './Modal.css';
+import "./Modal.css";
 
 const Modal = (props) => {
   return (
-    <div className='overlay'>
+    <div className="overlay">
       <div className="popup">
         <h2>This is your note:</h2>
         <p>
@@ -22,8 +22,10 @@ const Modal = (props) => {
         <p>
           Message: <span>{props.message}</span>
         </p>
-        <button onClick={props.click}>Yes, I am sure</button>
-        <button onClick={props.click}>No, I don't want to post it</button>
+        <div className="button_wrapper">
+          <button onClick={props.submit}>Yes, I am sure</button>
+          <button onClick={props.click}>No, I don't want to post it</button>
+        </div>
       </div>
     </div>
   );

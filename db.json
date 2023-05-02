@@ -1,0 +1,36 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "firstname": "Helinä",
+      "lastname": "Keiju",
+      "phone": "040-145234234",
+      "role": "teacher",
+      "message": "Terveppä terve"
+    },
+    {
+      "id": 2,
+      "firstname": "Ilari",
+      "lastname": "Lehtonen",
+      "phone": "040-167234434",
+      "role": "student",
+      "message": "Moro sfdsfdk asdaskdjadklsjalkd jladj kjdklasdhla"
+    },
+    {
+      "id": 3,
+      "firstname": "Taru",
+      "lastname": "Linnanmäki",
+      "phone": "040-55589234",
+      "role": "other",
+      "message": "Hello World o/"
+    },
+    {
+      "firstname": "asdd",
+      "lastname": "ads",
+      "phone": "adsad",
+      "role": "student",
+      "message": "adas",
+      "id": 4
+    }
+  ]
+}

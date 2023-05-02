@@ -1,0 +1,15 @@
+.notes {
+  margin: 4rem 2rem;
+  width: 400px;
+  color: white;
+}
+
+.notes h2,
+li {
+  padding: 0.5rem;
+  border: 1px solid white;
+}
+
+.notes li {
+  list-style: none;
+}

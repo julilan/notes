@@ -1,14 +1,14 @@
 .preview {
-  background-color: #FFFBEB;
+  background-color: #fffbeb;
   width: 600px;
   min-height: 400px;
-  margin: 4rem;
+  margin: 4rem 0;
   border-radius: 5px;
-  border: 5px dotted #ccc;
+  /* border: 5px dotted #ccc; */
   font-size: 20px;
   width: 600px;
   font-family: inherit;
-/*   display: flex;
+  /*   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column; */
@@ -21,10 +21,11 @@
   color: black;
   border-bottom: 1px dotted #ccc;
   border-radius: 5px;
+  text-indent: 20px;
 }
 
 .preview span {
-  font-family: 'Marck Script', cursive;
+  font-family: "Marck Script", cursive;
 }
 
 /* .lines {

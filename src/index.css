@@ -5,14 +5,16 @@
 }
 
 body {
-  font-family: 'Alegreya Sans', sans-serif;
+  font-family: "Alegreya Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   background-color: #495579;
 }
 
 button {
   font-family: inherit;
   font-size: inherit;
-  width: 100%;
+  width: 280px;
   padding: 0.5rem;
   margin-bottom: 1rem;
   text-transform: uppercase;
@@ -24,7 +26,7 @@ button {
 }
 
 button:hover {
-  background-color: #E96479;
+  background-color: #e96479;
 }
 
 .app {
